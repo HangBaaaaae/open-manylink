@@ -1,0 +1,14 @@
+services:
+  open-manylink:
+    build: .
+    container_name: open-manylink
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - META_WEBHOOK_VERIFY_TOKEN=${META_WEBHOOK_VERIFY_TOKEN:-open_manylink_verify_2026}
+      - META_APP_SECRET=${META_APP_SECRET:-}
+      - NEXT_PUBLIC_BASE_URL=${NEXT_PUBLIC_BASE_URL:-http://localhost:3000}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

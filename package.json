@@ -1,0 +1,28 @@
+{
+  "name": "open-manylink-kr",
+  "version": "0.1.0",
+  "private": false,
+  "description": "인포크링크·매니챗 스타일 오픈소스 인스타그램 댓글→자동 DM 및 팔로우 전환·링크 클릭 트래킹 플랫폼 (Meta 공식 무료 Graph API 기반)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/verify-release.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0"
+  }
+}
