@@ -1,6 +1,6 @@
 # OpenManyLink (오픈매니링크)
 
-인포크링크(Inpock Link)·매니챗(ManyChat) 스타일의 **오픈소스 인스타그램 댓글 → 자동 DM 발송 & 링크 클릭 트래킹 플랫폼**입니다.  
+스타일의 **오픈소스 인스타그램 댓글 → 자동 DM 발송 & 링크 클릭 트래킹 플랫폼**입니다.  
 Meta 공식 무료 **Instagram Graph API v21.0** 규격을 준수하며, **Docker나 복잡한 서버 설정 없이** Node.js(`npm run dev`) 또는 Vercel 등으로 누구나 무료로 바로 실행·배포할 수 있습니다.
 
 ---
